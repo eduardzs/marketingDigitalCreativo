@@ -1,0 +1,46 @@
+.cabecalho-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+    margin-bottom: 50px;
+}
+
+.cabecalho-container h1{
+    line-height: 0.8;
+}
+
+.cabecalho-lista{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.1;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+.cabecalho-lista li a{
+    padding: 0.75rem;
+}
+
+.cabecalho-lista li a:hover{
+    color: #6644ee;
+}
+
+.cabecalho-conta{
+    width: 200px;
+    height: 50px;
+    font-size: 1.1rem;
+    line-height: 1.1;
+    font-weight: bold;
+    background-color: #141414;
+    border-radius: 1rem;
+    border: 2px solid #8844ee;
+    display: block;
+    align-items: center;
+}
+
+.cabecalho-conta a:hover{
+    color: #fff;
+}
+

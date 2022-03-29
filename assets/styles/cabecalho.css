@@ -6,7 +6,7 @@
     margin-bottom: 50px;
 }
 
-.cabecalho-container h1{
+.cabecalho-container h2{
     line-height: 0.8;
 }
 
@@ -20,6 +20,10 @@
 }
 
 .cabecalho-lista li a{
+    padding: 0.75rem;
+}
+
+.cabecalho-conta a{
     padding: 0.75rem;
 }
 
@@ -43,4 +47,3 @@
 .cabecalho-conta a:hover{
     color: #fff;
 }
-

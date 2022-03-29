@@ -1,0 +1,25 @@
+@media screen and (max-width:900px){
+    .cabecalho-container{
+        flex-direction: column;
+        gap: 20px;
+        margin: 0;
+    }
+    .cabecalho-container h2{
+        font-size: 2.25rem;
+    }
+    .incricao-container{
+        padding: 20px;
+    }
+    .inscricao{
+        display: flex;
+        text-align: center
+    }
+    .dados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img{
+        display: none;
+    }
+}

@@ -6,8 +6,23 @@
         text-align: center;
         gap: 20px;
     }
+    .cabecalho-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
     .cabecalho-container h2{
         font-size: 2.25rem;
+    }
+    .cabecalho-lista{
+        display: flex;
+        flex-direction: row-center;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        
     }
     .incricao-container{
         padding: 20px;
@@ -20,6 +35,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .dados input{
+        width: 200px;
     }
     img{
         display: none;
